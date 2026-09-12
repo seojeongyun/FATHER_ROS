@@ -1,0 +1,12 @@
+# Please insure that your custom_dataset are put in same parent dir with YOLOv6_DIR
+train: /storage/hrlee/widerface/images/train  # 12880 images
+val: /storage/hrlee/widerface/images/val  # 3226 images
+anno_path: /storage/hrlee/widerface/annotations/instances_val.json
+
+
+# whether it is coco dataset, only coco dataset should be set to True.
+is_coco: False
+
+# Classes
+nc: 1  # number of classes
+names: ['face']  # class names
